@@ -1,0 +1,36 @@
+.About-main {
+    width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+    cursor: grab;
+}
+
+.info {
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    width: 60%;
+    padding: 20px;
+}
+.glassdivs{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .info {
+      font-size: 13px;
+      width: 80%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 200px) {
+    .content {
+      font-size: 2em;
+    }
+  
+  }
