@@ -7,13 +7,31 @@
 	overflow-x:hidden ;
 }
 .tools {
-    position: relative; /* Add this for positioning of pseudo-element */
-    background: whitesmoke;
-    border-top-right-radius: 89px;
-    border-bottom-right-radius: 89px;
-	max-width: 1528px;
-	width: 100%;
+    position: relative;
+    width: 100%;
 }
+
+.tools::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(42deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%); /* Adjust the opacity as needed */
+    z-index: -1;
+    /* border-top-left-radius: 89px;
+    border-bottom-left-radius: 89px; */
+}
+
+/* Your existing styles */
+.tools {
+    background: white;
+    border-top-left-radius: 89px;
+    border-bottom-left-radius: 89px;
+}
+
+
  .model-img{
 	max-width: 50px;
     max-height: 50px;
@@ -289,7 +307,10 @@ a {
 
 @media only screen and (max-width: 900px) {
 	.text-tech{
-
+		left: 18%;
+		position: relative;
+		margin-top: 56%;
+		width: 148px;
 	}
 	.text-tech p{
 		margin-top: 10px;
@@ -308,9 +329,16 @@ a {
   }
   }
   
-  @media only screen and (max-width: 200px) {
+  @media only screen and (max-width: 400px) {
 	.model-name {
 		font-size: 7px;
 	}
-  
+	
+
+.text-tech {
+	left: 15%;
+    position: relative;
+    margin-top: 0%;
+    width: 132px;
+}
   }

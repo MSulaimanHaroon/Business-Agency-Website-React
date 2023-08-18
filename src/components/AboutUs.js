@@ -5,7 +5,7 @@ import './styles/Aboutus.css'
 
 const AboutUs = () => {
     return (
-        <section className='About-main'>
+        <section id='aboutus' className='About-main'>
             <Heading heading="About Us" textColor="white" lineColor="white" />
             <p className='info'>The Game Storm Studios, a Top Game Development Company is dedicated to giving brilliance to our clients and players by fulfilling their needs about the best mobile games. We even offer customized services to develop mobile applications and mobile games on platforms including iOS and Android.</p>
             <div className='glassdivs'> 

@@ -63,7 +63,7 @@ function Navbar() {
                             exit="exit"
                         >
                             {/* <div className="btn_close" onClick={closeMenu}>X</div> */}
-                            <motion.a href=""
+                            <motion.a href="#aboutus"
                                 initial={{ y: 80, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ delay: .8 }}
@@ -75,8 +75,8 @@ function Navbar() {
                                         delay: 1
                                     }
                                 }}
-                            >Home</motion.a>
-                            <motion.a href=""
+                            >About</motion.a>
+                            <motion.a href="#tech"
                                 initial={{ y: 80, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ delay: .7 }}
@@ -88,8 +88,8 @@ function Navbar() {
                                         delay: .8
                                     }
                                 }}
-                            >About</motion.a>
-                            <motion.a href=""
+                            >Technologies</motion.a>
+                            <motion.a href="#products"
                                 initial={{ y: 80, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ delay: .6 }}
@@ -102,7 +102,7 @@ function Navbar() {
                                     }
                                 }}
                             >Portfolio</motion.a>
-                            <motion.a href=""
+                            <motion.a href="#blog"
                                 initial={{ y: 80, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ delay: .5 }}
@@ -115,7 +115,7 @@ function Navbar() {
                                     }
                                 }}
                             >Blog</motion.a>
-                            <motion.a href=""
+                            <motion.a href="#contact"
                                 initial={{ y: 80, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ delay: .4 }}

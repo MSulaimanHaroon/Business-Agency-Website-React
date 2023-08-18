@@ -4,7 +4,7 @@ import './styles/Blog.css'
 
 const Blog = () => {
   return (
-    <div className='blog-main'>
+    <div id='blog' className='blog-main'>
       <Heading heading="Blog" textColor="black" lineColor="black" />
       <div className='blogs'>
         <div className="blog">
