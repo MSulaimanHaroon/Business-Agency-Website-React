@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60f394de.css",
+    "main.js": "/static/js/main.9268de4c.js",
+    "static/js/787.47e50117.chunk.js": "/static/js/787.47e50117.chunk.js",
+    "static/media/videoBg.mp4": "/static/media/videoBg.018d3767e7595b314a7b.mp4",
+    "static/media/Family-Pet-Dog-Home.png": "/static/media/Family-Pet-Dog-Home.4210ea508fc59e2494ec.png",
+    "static/media/Bike-Stunts-3D.png": "/static/media/Bike-Stunts-3D.a00acb26845a771ca293.png",
+    "static/media/monster-truck.png": "/static/media/monster-truck.44077dd08e4e4e8c3283.png",
+    "static/media/Farm-Day-Village-Farming.png": "/static/media/Farm-Day-Village-Farming.53f232c5e14e654edb16.png",
+    "static/media/dfg.png": "/static/media/dfg.f6f88112c455f010f0d0.png",
+    "static/media/dfss.png": "/static/media/dfss.38b5f2cef55deec12e44.png",
+    "static/media/flying-bike.png": "/static/media/flying-bike.84fb399ab409e539ae8f.png",
+    "static/media/Cooking-Day-Chefs-Restaurant.png": "/static/media/Cooking-Day-Chefs-Restaurant.0d26d1117a6779d0ed6c.png",
+    "static/media/Chef-Restaurant-Cooking-Game.png": "/static/media/Chef-Restaurant-Cooking-Game.130a75ffba355c1b82b6.png",
+    "static/media/Airplane-Pilot-Car.png": "/static/media/Airplane-Pilot-Car.602dbdc9153ef03e71b9.png",
+    "static/media/Big-Little-Farmer-Offline-Farm.png": "/static/media/Big-Little-Farmer-Offline-Farm.09a98daac5940b35b182.png",
+    "static/media/Firing-Squad-Fire-Battleground.png": "/static/media/Firing-Squad-Fire-Battleground.fdbff54b5e2565dec7fb.png",
+    "static/media/prg_gun_blk2.svg": "/static/media/prg_gun_blk2.09f655fe85eb6accee5a45c01e29d124.svg",
+    "index.html": "/index.html",
+    "main.60f394de.css.map": "/static/css/main.60f394de.css.map",
+    "main.9268de4c.js.map": "/static/js/main.9268de4c.js.map",
+    "787.47e50117.chunk.js.map": "/static/js/787.47e50117.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f394de.css",
+    "static/js/main.9268de4c.js"
+  ]
+}
