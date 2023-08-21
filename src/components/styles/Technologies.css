@@ -80,7 +80,7 @@
 	align-items: center;
 	text-align: center;
 	gap: 8px;
-	background:linear-gradient(42deg, rgb(142 0 0) 0%, rgb(207, 46, 46) 100%);;
+	background:linear-gradient(135deg, rgb(142 0 0) 0%, rgb(207, 46, 46) 100%);
 	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1), 0px 16px 32px rgba(0, 0, 0, 0.1);
 	border-radius: 100px;
 	font-family: 'Inter', sans-serif;
@@ -94,7 +94,7 @@
 	transition: 0.5s;
 }
 .card:hover{
-	background: #e55e1a;
+	background: linear-gradient(135deg, rgb(150, 27, 2) 0%, rgb(207, 78, 46) 100%);
 	width: 150px;
 	height: 150px;
 	line-height: 34px;
@@ -327,6 +327,11 @@ a {
 	padding: 8px 0px;
 	line-height: 7px;
   }
+  .card:hover{
+	width: 15%;
+	line-height: 7px;
+	height: 15%;
+  }
   }
   
   @media only screen and (max-width: 400px) {
@@ -336,9 +341,10 @@ a {
 	
 
 .text-tech {
-	left: 15%;
+	
+    left: 8%;
     position: relative;
-    margin-top: 0%;
-    width: 132px;
+    margin-top: 22%;
+
 }
   }

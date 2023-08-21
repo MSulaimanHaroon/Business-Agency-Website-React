@@ -27,23 +27,29 @@
 }
 @media only screen and (max-width: 900px) {
     .heading-main {
-      font-size: 20px;
+      font-size: 17px;
     }
     .game-main:hover .line{
-        width: 13rem;
+        width: 10rem;
     }
     .blog-main:hover .line{
-        width: 13em;
+        width: 10em;
     }
     .void:hover .line{
-        width: 13rem;
+        width: 10rem;
+    }
+    .line{
+        border: 2px solid rgb(255, 255, 255);
+        width: 8rem;
+        transition: width 2s;
+        
     }
   
   }
   
   @media only screen and (max-width: 200px) {
     .heading-main {
-        font-size: 20px;
+        font-size: 14px;
       }
     
   }

@@ -80,7 +80,7 @@ const Technologies = () => {
       <div className="mask">
         <div className='text-tech'>
           <Heading heading="Technologies" textColor="rgb(255, 0, 5)" lineColor="rgb(255, 0, 5)" />
-          <p>We are passionate about unlocking our potential to the maximum on mobile application development services being offered worldwide and we design games on best set of tools and technologies.</p>
+          <p>We are passionate about unlocking our potential to the maximum on mobile application development services being offered worldwide.</p>
         </div>
       </div>
       <div className="center-circle"></div>
