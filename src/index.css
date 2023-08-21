@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 
 }
 
@@ -56,7 +57,7 @@ code {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #8f54a0 #ffffff;
+    scrollbar-color: #a30000 #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
@@ -65,11 +66,11 @@ code {
   }
 
   *::-webkit-scrollbar-track {
-    background: #ffa694;
+    background: #24262b;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #ff4b14;
+    background-color: #c80000e3;
     border-radius: 10px;
     
   }

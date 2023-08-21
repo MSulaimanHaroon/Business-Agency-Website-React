@@ -1,4 +1,4 @@
-.ham {
+.hamburger {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     transition: transform 400ms;
@@ -9,7 +9,7 @@
     z-index: 9999;
 }
 
-.hamRotate.active {
+.hamburgerRotate.active {
     transform: rotate(45deg);
 }
 
@@ -17,7 +17,7 @@
     transform: rotate(180deg);
 }
 
-.line {
+.top, .middle, .bottom {
     fill: none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
     stroke:#ff0005;
@@ -25,28 +25,28 @@
     stroke-linecap: round;
 }
 
-.ham3 .top {
+.hamburger .top {
     stroke-dasharray: 40 130;
 }
 
-.ham3 .middle {
+.hamburger .middle {
     stroke-dasharray: 40 140;
 }
 
-.ham3 .bottom {
+.hamburger .bottom {
     stroke-dasharray: 40 205;
 }
 
-.ham3.active .top {
+.hamburger.active .top {
     stroke-dasharray: 75 130;
     stroke-dashoffset: -63px;
     
 }
-.ham3.active .middle {
+.hamburger.active .middle {
     stroke-dashoffset: -102px;
 }
 
-.ham3.active .bottom {
+.hamburger.active .bottom {
     stroke-dasharray: 110 205;
     stroke-dashoffset: -86px;
 }
@@ -84,6 +84,7 @@ header {
     border-bottom: 1px solid #bdbdbd;
     padding: 0 50px;
     margin-top: 1.5%;
+    
 
 }
 

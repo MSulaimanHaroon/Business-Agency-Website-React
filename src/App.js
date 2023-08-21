@@ -7,18 +7,24 @@ import Technologies from './components/Technologies';
 import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 
 function App() {
 
   return (
     <>
+    <ParallaxProvider>
       <Header />
       <AboutUs/>
       <Technologies/>
       <Games/>
       <Blog/>
-      <Contact />     
+      <Contact />  
+      
       <Footer/>
+      
+      </ParallaxProvider>
     </>
   );
 }

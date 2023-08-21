@@ -18,9 +18,10 @@
 
 /* Your existing styles */
 .About-main{
-  background: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+  background: linear-gradient(135deg, rgb(142 0 0) 0%, rgb(207, 46, 46) 100%);
   border-top-right-radius: 89px;
   border-bottom-right-radius: 89px;
+ 
 }
 
 

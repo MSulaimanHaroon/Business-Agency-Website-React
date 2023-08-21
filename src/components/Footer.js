@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/Footer.css'
 import { FaFacebookF,FaTwitter,FaYoutube, FaLinkedinIn } from 'react-icons/fa';
+import logo from './assets/logo.png'
 
 const Footer = () => {
   return (
@@ -8,7 +9,8 @@ const Footer = () => {
       <div className="footer-div">
         <div className="row">
           <div className="footer-col">
-            <img src='https://thegamestormstudios.com/wp-content/uploads/2019/12/logo-black-1.png' alt='' />
+            
+            <img src={logo} alt='logo' />
             {/* <h4>company</h4> */}
             <ul>
               <li><a href="#about" >about us</a></li>

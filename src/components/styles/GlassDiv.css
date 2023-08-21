@@ -16,7 +16,7 @@
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 .glasscard:hover{
-    border-bottom: 3px solid #cc00ff;
+    border-bottom: 3px solid #ffb700;
 }
 
 @media only screen and (max-width: 900px) {
