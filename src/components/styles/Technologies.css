@@ -26,7 +26,7 @@
 
 /* Your existing styles */
 .tools {
-    background: white;
+    background: whitesmoke;
     border-top-left-radius: 89px;
     border-bottom-left-radius: 89px;
 }
@@ -80,7 +80,7 @@
 	align-items: center;
 	text-align: center;
 	gap: 8px;
-	background: #ff0005;
+	background:linear-gradient(42deg, rgb(142 0 0) 0%, rgb(207, 46, 46) 100%);;
 	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1), 0px 16px 32px rgba(0, 0, 0, 0.1);
 	border-radius: 100px;
 	font-family: 'Inter', sans-serif;
